@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>K-Mean Algorithm</title>
+</head>
+
+<body>
+  <main class="container">
+    <h2 class="title">K-Mean Algorithm Visualization</h2>
+    <div id="canvas_container"></div>
+    <div class="container_control">
+      <label for="noOfKInput">No. of K: </label>
+      <input id="noOfKInput" type="range" min="1" max="5" step="1" value="3" />
+      <span id="noOfK">0</span>
+      <input id="startButton" type="button" value="Start" />
+      <input id="resetButton" type="button" value="Reset" />
+    </div>
+  </main>
+
+  <script src="./lib/p5.min.js"></script>
+  <script src="./class/Node.js"></script>
+  <script src="./script.js"></script>
+  <!-- <script src="./algorithm.js"></script> -->
+</body>
+
+</html>
